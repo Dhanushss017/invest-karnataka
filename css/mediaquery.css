@@ -1,0 +1,120 @@
+@media (min-width: 1401px) {
+    .banner_content {
+        right:unset;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .banner_content {
+        right: -5%;
+    }
+  }
+
+@media (max-width: 1199px) {
+    .fs-48 {
+      font-size: 30px !important;
+    }
+    .aboutus-text,
+    .aboutusright-text {
+        padding: 40px;
+    }
+
+  }
+  @media (min-width: 1024px) and (max-width: 1199px) {
+    .banner_content {
+        right: -3%;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .aboutus-text,
+    .aboutusright-text {
+        padding: 20px;
+    }
+    .about_info {
+        padding: 15px 20px;
+    }
+    .about_info h2 {
+        font-size:14px;
+    }
+    .lh_3 {
+        line-height: 40px;
+    }
+    .banner_content {
+        right: 0%;
+    }
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    .bg_video {
+      height: 120dvh;
+    }
+    .banner_content {
+      left: 10%;
+      right: unset;
+      top: 55%;
+    }
+    .moreinfo {
+        top: -40px;
+    }
+    .aboutus-text,
+    .aboutusright-text {
+        padding: 20px;
+    }
+    .about_info {
+        padding: 15px 20px;
+    }
+    .about_info h2 {
+        font-size:14px;
+    }
+    .bangaloreimg img,
+    .rightimg img{
+        border-radius: 20px;
+    }
+    .lh_3 {
+        line-height: 40px;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .fs-48 {
+      font-size: 30px !important;
+    }
+    .bg_video {
+      height: 130dvh;
+    }
+    .navbar-brand img {
+      width: 160px;
+    }
+    .navbar_section .navbar-toggler {
+      padding: 9px 12px;
+    }
+    .bannervideo-text p {
+      max-width: 300px;
+    }
+    .banner_content {
+      left: 10%;
+      right: unset;
+    }
+    .aboutus-text,
+    .aboutusright-text {
+        padding: 20px;
+    }
+    .about_info {
+        padding: 15px 20px;
+    }
+    .about_info h2 {
+        font-size:14px;
+    }
+    .bangaloreimg img,
+    .rightimg img{
+        border-radius: 20px;
+    }
+    .lh_3 {
+        line-height: 40px;
+    }
+  }
+  @media (min-width: 320px) and (max-width: 374px) {
+    .banner_content {
+        left: auto;
+    }
+  }
+  

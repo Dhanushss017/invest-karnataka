@@ -7,17 +7,21 @@
     <title>Invest Karnataka</title>
     <!-- favicon -->
     <link rel="icon" type="image/x-icon" href="images/icons/favicon-gov.svg">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="helper.css">
+    <link rel="stylesheet" href="css/helper.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaquery.css">
+
     <!-- Booststrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Swiper CSS CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 
 <body>
     <header class="position-relative overflow-hidden">
         <nav class="navbar py-3 navbar_section">
-            <div class="container">
+            <div class="container px-md-0">
 
 
                 <div class="d-flex  w-100 align-items-center">
@@ -29,8 +33,8 @@
                             <img src="images/icons/search.png" class="img-fluid ">
                         </div>
                         <div class="dropdown select_lang me-3">
-                            <button class="btn d-none d-md-block  dropdown-toggle" type="button" id="dropdownMenuButton1"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <button class="btn d-none d-md-block  dropdown-toggle" type="button"
+                                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                 English
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -96,7 +100,7 @@
                         </div>
                         <div class="col-md-6 col-lg-5">
                             <div class="row">
-                                <div class="col-lg-12 mb-4">
+                                <div class="col-lg-12 d-lg-flex justify-content-center mb-4">
                                     <div class="d-flex align-items-center banner_info gap-3  ">
                                         <span class="">
                                             <img src="images/icons/k-map.svg" class="img-fluid icon-invert"
@@ -110,7 +114,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-lg-12 mb-4">
+                                <div class="col-lg-12 d-lg-flex justify-content-center mb-4">
                                     <div class=" d-flex align-items-center banner_info gap-3  ">
                                         <span class="">
                                             <img src="images/icons/invest.svg" class="img-fluid  icon-invert"
@@ -123,7 +127,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-12 mb-4">
+                                <div class="col-lg-12 d-lg-flex justify-content-center mb-4">
                                     <div class="d-flex align-items-center banner_info gap-3   ">
                                         <span class="">
                                             <img src="images/icons/investors.svg" class="img-fluid icon-invert"
@@ -147,11 +151,214 @@
         </div>
     </header>
 
+    <section class="py-3 py-md-0">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-11 col-md-11 col-lg-10 moreinfo py-3">
+                    <div class="swiper moreinfo-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="d-flex align-items-center gap-3 moreinfo_card">
+                                    <img src="images/bangalore.png" class="img-fluid ">
+                                    <p class="fs-12 fw-600 mb-0 text-white">Karnataka:<br>
+                                        Hub of Innovation
+                                        and Investment</p>
+                                </div>
+                            </div>
 
+                            <div class="swiper-slide">
+                                <div class="d-flex align-items-center gap-3 moreinfo_card">
+                                    <img src="images/meetup.png" class="img-fluid ">
+
+                                    <p class="fs-12 fw-600 mb-0 text-white">Investors Flock to
+                                        Karnataka’s Thriving
+                                        Ecosystem</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="d-flex align-items-center gap-3 moreinfo_card">
+                                    <img src="images/workshop.png" class="img-fluid ">
+
+                                    <p class="fs-12 fw-600 mb-0 text-white">Karnataka’s<br>
+                                        Booming Industrial
+                                        Growth</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="d-flex align-items-center gap-3 moreinfo_card">
+                                    <img src="images/bangalore.png" class="img-fluid ">
+
+                                    <p class="fs-12 fw-600 mb-0 text-white">Karnataka:<br>
+                                        Hub of Innovation
+                                        and Investment</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="d-flex align-items-center gap-3 moreinfo_card">
+                                    <img src="images/meetup.png" class="img-fluid ">
+
+                                    <p class="fs-12 fw-600 mb-0 text-white">Investors Flock to
+                                        Karnataka’s Thriving
+                                        Ecosystem</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mb-4">
+        <div class="container bg-bangaloreview">
+            <div class="row ">
+                <div class="col-md-6 align-self-center">
+                    <div class="aboutus-text">
+                        <h2 class="fs-48 fw-400 lh_3 text-white">About<br>
+                            Karnataka </h2>
+                        <p class="fs-16 lh_1 mb-4 opacity-1 fw-300 text-white">Donec auctor cursus lacus, quis finibus lorem<span class="d-lg-block">
+                            lobortis id. Sed urna est, suscipit at vehicula </span>eget, lobortis pharetra purus.</p>
+                        <a class="text-white fs-16 fw-400" href="#">Learn More</a>
+                    </div>
+
+                </div>
+                <div class="col-md-6  px-3  pe-md-0">
+                    <div class="bangaloreimg">
+                        <img src="images/bangaloreimg.jpg" class="img-fluid w-100" alt="bangalore">
+                    </div>
+                </div>
+            </div>
+            <div class="row p-3 py-4 p-lg-5">
+                <div class="col-md-4 col-lg-4 mb-3 mb-md-0">
+                    <div class="d-flex align-items-center justify-content-between about_info gap-2 gap-lg-3  ">
+                       
+                        <h2 class="fs-20 text-white fw-700 mb-0">Key Industries</h2>
+                        <div class="border-arrow  ">
+                            <img src="images/icons/arrow-up.svg" class="img-fluid arrow-animate "
+                                alt="arrow">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 mb-3 mb-md-0">
+                    <div class=" d-flex align-items-center justify-content-between about_info gap-3  ">
+                       
+                        <h2 class="fs-20 text-white mb-0 fw-700">State at a glance</h2>
+                        <div class="border-arrow ">
+                            <img src="images/icons/arrow-up.svg" class="img-fluid arrow-animate "
+                                alt="arrow">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 mb-3 mb-md-0">
+                    <div class="d-flex align-items-center justify-content-between about_info gap-3   ">
+                       
+                        <h2 class="fs-20 text-white mb-0 fw-700">Culture</h2>
+                        <div class="border-arrow ">
+                            <img src="images/icons/arrow-up.svg" class="img-fluid arrow-animate"
+                                alt="arrow">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="mb-4">
+        <div class="container bg-bangaloreviewright">
+            <div class="row ">
+                
+                <div class="col-md-6 px-0   pe-md-0">
+                    <div class="rightimg">
+                        <img src="images/right.jpg" class="img-fluid w-100" alt="bangalore">
+                    </div>
+                </div>
+                <div class="col-md-6 align-self-center">
+                    <div class="aboutusright-text">
+                        <h2 class="fs-48 fw-400 lh_3 text_grey">The Biggest<span class="d-lg-block">
+                            Global Brands </span>
+                           <span class="fw-700">Invest in Karnataka</span>  </h2>
+                        <p class="fs-16 lh_1 mb-4 opacity-1 fw-300 text_grey">Donec auctor cursus lacus, quis finibus lorem<span class="d-lg-block">
+                            lobortis id. Sed urna est, suscipit at vehicula </span>eget, lobortis pharetra purus.</p>
+                        <a class=" fs-16 text_grey fw-400" href="#">Learn More</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row p-3 py-4 p-lg-5">
+                <div class="col-md-4 col-lg-4 mb-3 mb-md-0">
+                    <div class="d-flex  align-items-center justify-content-between about_info gap-3  ">
+                       
+                        <h2 class="fs-20  fw-700 mb-0 globalbrands">Why invest</h2>
+                        <div class="border-arrow  ">
+                            <img src="images/icons/arrow-grey.svg" class="img-fluid arrow-animate "
+                                alt="arrow">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 mb-3 mb-md-0">
+                    <div class=" d-flex align-items-center justify-content-between about_info gap-3  ">
+                       
+                        <h2 class="fs-20  mb-0 fw-700 globalbrands">Ease of Doing Business</h2>
+                        <div class="border-arrow ">
+                            <img src="images/icons/arrow-grey.svg" class="img-fluid arrow-animate "
+                                alt="arrow">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 mb-3 mb-md-0">
+                    <div class="d-flex align-items-center justify-content-between about_info gap-3   ">
+                       
+                        <h2 class="fs-20  mb-0 fw-700 globalbrands">Recent investments</h2>
+                        <div class="border-arrow ">
+                            <img src="images/icons/arrow-grey.svg" class="img-fluid arrow-animate"
+                                alt="arrow">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
     <!-- Booststrap CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+    <!-- Swiper JS CDN -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+
+        var moreInfoSwiper = new Swiper('.moreinfo-swiper', {
+            loop: true,
+            spaceBetween: 15,
+            grabCursor: true,
+            slidesPerView: "auto",
+            autoplay: {
+                delay: 1,
+                disableOnInteraction: true
+            },
+            freeMode: true,
+            speed: 4000,
+
+            breakpoints: {
+                1490: {
+                    slidesPerView: 4,
+                },
+                991: {
+                    slidesPerView: 3,
+                },
+                481: {
+                    slidesPerView: 2,
+                },
+                0: {
+                    slidesPerView: 1,
+                }
+            }
+        });
+    </script>
+
 </body>
 
 </html>

@@ -99,7 +99,12 @@
 .br-14 {
     border-radius: 14px;
 }
-
+.fw-300{
+    font-weight: 300;
+}
+.fw-400{
+    font-weight: 300;
+}
 .fw-600{
     font-weight: 600;
 }
@@ -122,9 +127,19 @@
 .text_red{
     color: #EE2737;
 }
+.text_grey{
+    color: #414042;
+}
 .lh_1{
     line-height: 30px;
 }
 .lh_2{
     line-height: 50px;
+}
+.lh_3{
+    line-height: 60px;
+
+}
+.opacity-1{
+    opacity: 0.8;
 }
